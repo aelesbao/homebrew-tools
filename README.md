@@ -2,6 +2,7 @@
 This repo simplifies installation of my homegrown tools.
 
 - [`ct`](https://github.com/coreos/container-linux-config-transpiler) - Convert a Container Linux Config into Ignition
+- [`git-recursive`](https://github.com/aelesbao/git-recursive) - Execute git operations in multiple repositories
 
 ## Installing
 ```
