@@ -6,8 +6,6 @@ class GitRecursive < Formula
 
   head "https://github.com/aelesbao/git-recursive.git", :branch => "master"
 
-  bottle :unneeded
-
   def install
     system "make", "PREFIX=#{prefix}", "install"
   end
