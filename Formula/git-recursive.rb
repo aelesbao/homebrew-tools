@@ -4,7 +4,7 @@ class GitRecursive < Formula
   url "https://github.com/aelesbao/git-recursive/archive/0.2.1.tar.gz"
   sha256 "494cc1fd1271cc8bf3e57b8d025d3dad06679924524f27ff2251c5f81d9a3669"
 
-  head "https://github.com/aelesbao/git-recursive.git", :branch => "master"
+  head "https://github.com/aelesbao/git-recursive.git", branch: "master"
 
   def install
     system "make", "PREFIX=#{prefix}", "install"
