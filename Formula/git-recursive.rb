@@ -1,8 +1,8 @@
 class GitRecursive < Formula
   desc "Execute git operations in multiple repositories"
   homepage "https://github.com/aelesbao/git-recursive"
-  url "https://github.com/aelesbao/git-recursive/archive/0.2.1.tar.gz"
-  sha256 "494cc1fd1271cc8bf3e57b8d025d3dad06679924524f27ff2251c5f81d9a3669"
+  url "https://github.com/aelesbao/git-recursive/archive/0.3.0.tar.gz"
+  sha256 "18037ea15aeb40e18bdc94aa036ae78ab038242305d25d11721516529fcb8e6e"
 
   head "https://github.com/aelesbao/git-recursive.git", branch: "master"
 
